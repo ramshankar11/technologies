@@ -1,0 +1,23 @@
+#per20 {
+    height: 100vmax;
+    width: 20%;
+    position: fixed;
+    overflow: hidden;
+    background-color: black;
+}
+
+#per80 {
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-left: 20%;
+    height: 110vmax;
+    width: 80%;
+    position: absolute;
+    background-color: white;
+}
+#loading{
+    display: none;
+}
+.card{
+    box-shadow: inset;
+}
