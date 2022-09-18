@@ -4,7 +4,6 @@ from datetime import datetime
 from airflow.operators.dummy_operator import DummyOperator
 PROJECT_ID='studious-lore-344410'
 REGION='us-west1'
-
 CLUSTER_NAME='test-from-composer'
 with DAG('dataproc_job_create_submit_delete', description='Dataproc something DAG',
           schedule_interval=None,
